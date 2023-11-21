@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <!-- logo - intestzione -->
 
     <header>
-     
-           <img class="logo" src="./img/Logo.png" alt="">
 
-            <h1 class="titolo">
-                toboolist
-            </h1>
-             
+        <img class="logo" src="./img/Logo.png" alt="">
+
+        <h1 class="titolo">
+            toboolist
+        </h1>
+
     </header>
-<!-- main -->
+    <!-- main -->
     <main>
-        <div class="div1">
-            Add Task
+
+        <div class="btn-wrapper">
+            <div class="btn btn-blue">
+                Add Task
+            </div>
+            <div class="btn btn-grey">
+                Add Section
+            </div>
         </div>
-        <div class="div2">
-            Add Section
-        </div >
+
+        <div class="tasks-wrapper">
+            <!-- Here tasks -->
+            <div class="task">
+                <h3>⯆ New task</h3>
+                <ul class="task-list">
+                    <li><span class="list-item list-item-ok">&#10003;</span> Quarterly Newsletter</li>
+                    <li><span class="list-item list-item-ko">&#10006;</span> Interview John H.</li>
+                </ul>
+            </div>
+            <div class="task">
+                <h3>⯆ New task 2</h3>
+                <ul class="task-list">
+                    <li><span class="list-item list-item-ok">&#10003;</span> Quarterly Newsletter</li>
+                    <li><span class="list-item list-item-ko">&#10006;</span> Interview John H.</li>
+                </ul>
+            </div>
+        </div>
 
     </main>
-    
 </body>
+
 </html>
