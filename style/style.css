@@ -1,4 +1,30 @@
-.header{
-    width: 100%;
-    padding: 20px 0 20px 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+  line-height: 100px;
+  background: pink;
+} 
+ .logo{
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+ }
+
+.titolo{
+    display: inline;
+    vertical-align: middle;
+}
+div1{
+    width: 40px;
+    height: 20px;
+    
+    background-color: blue;
 }
