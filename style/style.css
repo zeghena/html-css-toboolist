@@ -44,8 +44,13 @@ header {
     color: #fff;
 }
 
+.btn-orange {
+    background-color: #f66c6cc3;
+
+}
+
 .btn-grey {
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #adacac;
     color: #adacac;
 }
@@ -65,12 +70,20 @@ main {
 
 
 .tasks-wrapper {
-    padding: 50px 40px;
+    padding: 30px 40px;
 }
 
 .task .task-list li {
     padding: 3px 0px;
+
 }
+
+.task .task-list {
+    padding: 3px 0px;
+    display: inline-block;
+}
+
+
 
 .task-list {
     list-style-type: none;
