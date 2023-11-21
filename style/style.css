@@ -22,9 +22,17 @@ header{
     display: inline;
     vertical-align: middle;
 }
-div1{
-    width: 40px;
-    height: 20px;
-    
+.div1{
+    width: 92px;
+    height: 26px;
+    display: inline-block;
     background-color: blue;
+    border-radius: 53px;
+}
+.div2{
+    width: 92px;
+    height: 26px;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 53px;
 }
